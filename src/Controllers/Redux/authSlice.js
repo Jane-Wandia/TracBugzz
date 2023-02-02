@@ -1,10 +1,10 @@
 import {createSlice} from '@reduxjs/toolkit'
 
-const slice =createSlice({
+const slice = createSlice({
     name:"auth",
     initialState:{
         admin:false,
-        loggedIn:false,
+            LoggedIn:false,
     },
 
     reducers:{
@@ -25,4 +25,4 @@ const slice =createSlice({
     }
 })
 export default slice.reducer;
- export const {} = slice.actions;
+export const {} = slice.actions;
